@@ -1,0 +1,203 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        img {
+            display: inline-block;
+            position: relative;
+            padding: 0;
+            max-width: 300px;
+            z-index: 99;
+        }
+    
+
+        body {
+             background-image: url(ChatGPT\ Image\ 12.\ 2.\ 2026\ 13_49_07.png); 
+            background-color: #ff0000;
+            color: #f2f2f2;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff003300, #8b000000); 
+            padding: 0px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #00c3a69d;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff0033;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: red;
+            background-color: #1800b769;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        h3 {
+            margin-bottom: 0px;
+            color: red;
+            /* background-color: #33333382;  */
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 0, 0.252);
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #333333;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background: #000000;
+            text-align: center;
+            padding: 20px;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+    .about-box {
+    background: linear-gradient(135deg, #1a1a1a00, #6c4300);
+    padding: 35px;
+    border-radius: 12px;
+    border-left: 5px solid #ff0033;
+    box-shadow: 0 0 15px rgba(34, 255, 0, 0.666)
+    }
+
+    .about-box p {
+        margin-bottom: 15px;
+        font-size: 1.05rem;
+        opacity: 0.95;
+    }
+    
+    .about-box strong {
+        color: #ff0033;
+    }
+    
+    .about-box em {
+        color: #ff6666;
+    }
+
+#about {
+    border-radius: 15px;
+    padding: 60px 20px;
+}
+
+.about-block {
+    border: 1px solid #ff0033;
+    background: #00a5ab6a;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.about-block h3 {
+    margin-bottom: 15px;
+    color: #ff0033;
+}
+
+.about-block p {
+    margin-bottom: 10px;
+    opacity: 0.95;
+}
+
+.about-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.about-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #333333;
+    font-size: 0.9rem;
+}
+
+.about-list li:last-child {
+    border-bottom: none;
+}
+
+.highlight-block {
+    border: 1px solid #ff0033;
+    background: linear-gradient(145deg, #00a5ab6a, #151515);
+}
+
+.facebook {
+    background-image: url("communication.png");
+}
+
+.instagram {
+    background-image: url("instagram(1).png");
+}
+
+.youtube {
+    background-image: url("youtube.png");
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 6px;
+}
